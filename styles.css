@@ -1,1 +1,20 @@
-/*  your css code here. If applicable */
+#outer {
+  width: 300px;
+  height: 300px;
+  background-color: #ff0000; /* red */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow:
+    0 0 0 25px #ffa500, /* orange */
+    0 0 0 50px #ffff00, /* yellow */
+    0 0 0 75px #008000, /* green */
+    0 0 0 100px #0000ff, /* blue */
+    0 0 0 125px #800080; /* purple */
+}
+
+#middle, #inner {
+  display: none; /* no need to style middle and inner since we're using box-shadow */
+}
