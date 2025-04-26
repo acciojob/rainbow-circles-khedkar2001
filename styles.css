@@ -1,20 +1,31 @@
 #outer {
   width: 300px;
   height: 300px;
-  background-color: #ff0000; /* red */
   border-radius: 50%;
+  background-color: rgb(255, 165, 0); /* orange */
+  border: 25px solid rgb(255, 0, 0); /* red */
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  box-shadow:
-    0 0 0 25px #ffa500, /* orange */
-    0 0 0 50px #ffff00, /* yellow */
-    0 0 0 75px #008000, /* green */
-    0 0 0 100px #0000ff, /* blue */
-    0 0 0 125px #800080; /* purple */
 }
 
-#middle, #inner {
-  display: none; /* no need to style middle and inner since we're using box-shadow */
+#middle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(0, 128, 0); /* green */
+  border: 25px solid rgb(255, 255, 0); /* yellow */
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#inner {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(128, 0, 128); /* purple */
+  border: 25px solid rgb(0, 0, 255); /* blue */
+  margin: 25px;
 }
